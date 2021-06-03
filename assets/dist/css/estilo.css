@@ -1,0 +1,212 @@
+body{
+    background: url(../../img/hero-1.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: 0% 145% !important;
+    
+}
+.body{
+    height: 70%;
+}
+.img-logo{
+    width: 25%;
+}
+.botao{
+     background-color:#061DA4;
+     color: aliceblue;
+     border-radius: none;
+     padding: .6rem 2.5rem;
+     font-size: 1.8rem;
+     text-decoration: none;
+     font-family: "Alfa Slab One";
+     font-weight: 400;
+
+}
+.botao:hover{
+    background-color: #f64140;
+    color: aliceblue;
+}
+
+@font-face{
+    font-family: 'Alfa Slab One';
+    font-weight: 300;
+    font-style: normal;
+    src: url(../../font/AlfaSlabOne-Regular.ttf) format('TrueType');
+}
+@font-face{
+    font-family: 'Fredoka One';
+    font-weight: 300;
+    font-style: normal;
+    src: url(../../font/FredokaOne-Regular.ttf) format('TrueType');
+}
+.titulo{
+    color: aliceblue;
+    font-family:'Fredoka One';
+    margin-top: 15%;
+       
+}
+.titulo h1{
+    text-shadow: -6px 4px 1px #252525;
+    font-size: 6rem;
+}
+.img-principal{
+    margin-top: 15%;
+    width: 70%;
+    position: absolute;
+    left: 40%;
+}
+.paragrafo{
+    color: aliceblue;
+    font-family:'Fredoka One';
+    margin-top: 10%;
+    text-shadow: -6px 4px 1px #252525;
+    font-size: 3rem;
+}
+
+.duascores{
+    color:#061DA4;
+}
+.paragrafo2{
+    font-family:'Fredoka One';
+    font-size: 1.8rem;
+   margin-top: 55%;
+    text-align: right;
+}
+
+.paragrafo2 h2{
+    font-size: 2.5rem;
+}
+
+.li2{
+    padding-left: 3%;
+    margin-top: 3%;
+    
+}
+.li3{
+    padding-left: 6%;
+    margin-top: 3%;
+}
+ul{
+    list-style: none;
+    
+}
+.ul{
+    font-size: 2rem;
+    font-family:'Fredoka One';
+    margin-top: 50%;
+
+       
+}
+.relativo{
+    position: relative;
+}
+@media (max-width:1450px){
+    body{
+        background: url(../../img/hero-1.jpg) no-repeat !important;
+        background-size: 100% 87% !important;        
+    }
+    .paragrafo2{
+        margin-top: 10%;
+    }
+    .ul{
+        margin-top: 3%;
+    }
+    .img-principal{
+        width: 50%;
+        transform: translatey(-10%);
+    }
+    .titulo h1{
+        font-size: 4.5rem;
+    }
+    .paragrafo{
+        font-size: 2rem;
+    }
+}
+@media(max-width:1024px){
+    body{
+        background: url(../../img/hero-1.jpg) no-repeat !important;
+        background-size: 100% 85% !important;        
+    }
+    .botao{
+        font-size: 1.2rem;
+    }
+    .titulo h1{
+        font-size: 4rem;
+    }
+    .paragrafo{
+        font-size: 1.7rem;
+    }
+    .paragrafo2{
+        margin-top: 50%;
+        
+    }
+    .paragrafo2 h2{
+        font-size: 2.2rem;
+    }
+    .ul{
+        margin-top: 40%;
+    }
+    .img-principal{
+        width: 72%;
+        transform: translatey(0%);
+    }
+   .ul ul{
+       padding: 0% !important;
+       font-size: 1.8rem;
+   }
+}
+@media(max-width:768px){
+
+    body{
+    
+    background-size: cover;       
+        
+    }
+    .img-logo{
+        width: 35%;
+    }
+    .titulo h1{
+        font-size: 3.1rem;
+        margin-top: 50%;
+    }
+    .paragrafo{
+        font-size: 1.5rem;
+    }
+    .paragrafo2 h2{
+        font-size: 1.9rem;
+    }
+    .ul ul{
+        font-size: 1.8rem;
+    }
+    .img-principal{
+        width: 80%;
+        left: 30%;
+    }
+}
+@media(max-width:550px){
+    body{
+        background: url(../../img/hero-1.jpg) no-repeat !important;
+        background-size: 200% 83% !important;        
+    }
+    .img-logo{
+        width: 50%;
+    }
+    .titulo h1{
+    font-size: 3.5rem;
+    margin: 10% 0% 0% 13%;    
+    }
+    .paragrafo{
+        margin: 6% 0% 0% 13%;
+    }
+    .paragrafo2 h2{
+        margin-top: 235%;
+        font-size: 1.5rem;
+    }
+    .ul{
+        margin-top: 220%;
+    }
+    .img-principal{
+        width: 50%;
+        transform: translate(0%,-15%);
+    }
+
+}
